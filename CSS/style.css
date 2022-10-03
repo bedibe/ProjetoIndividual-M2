@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body,
+  html {
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: url(https://mir-s3-cdn-cf.behance.net/project_modules/disp/e9d40d26810225.5635acac91f14.gif);
+    background-size: cover;
+    background-position: center;
+  
+  }
+  
+  
+  
+  main {
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+  
+  }
+  
+  .container {
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    width: 400px;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: 10px;
+   color: rgb(6, 6, 54);
+
+  }
+  
+  .caixa {
+    border: 2px solid rgb(6, 6, 54);
+  
+  }
+  
+  .escolha {
+    display: flex;
+    justify-content: center;
+   
+  }
+  
+  .escolha select {
+    background-color: #f7f7f1;
+    border-radius: 16px;
+    padding: 4px 8px;
+    border: 2px solid #402B1D;
+    color: rgb(6, 6, 54);
+  
+  }
+  
+  
+  .textopassos {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    color:  rgb(6, 6, 54);
+  }
+  
+  .selecionapassos {
+    display: flex;
+    justify-content: center;
+    color:  black;
+  }
+  
+  .codedecode {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    gap: 10px;
+    color:  rgb(6, 6, 54);
+  }
+  
+  .criptografar {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+  }
+  
+  .criptografar button {
+    background-color: white;
+    border-radius: 16px;
+    padding: 4px 8px;
+    border: 2px solid #402B1D;
+    color:  rgb(6, 6, 54);
+  }
+  
+  .caixa {
+    border-radius: 16px;
+    padding: 16px;
+    margin: 16px;
+  }
+  
+  #steps {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .linkimg {
+    width: 2em;
+  
+  }
+  
+  footer {
+    background-color: rgb(6, 6, 54) ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 3em;
+    padding-top: 10px;
+    padding: 20px;
+    color: white;
+  }
+
+  .bdb {
+    text-align:center;
+    font: smaller;
+   
+   
+  }
+  
